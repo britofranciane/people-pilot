@@ -2,22 +2,13 @@
 
 :root {
   --color-gray-light: #d6d6de;
-  /* Cinza claro */
   --color-gray-lighter: #fafafa;
-  /* Cinza muito claro */
   --color-gray-medium: #e5e8eb;
-  /* Cinza médio */
   --color-black: #000000;
-  /* Preto */
   --color-dark-gray: #1c1c21;
-  /* Cinza escuro */
   --color-gray-dark: #3d404a;
-  /* Cinza muito escuro */
   --color-darkest: #212429;
-  /* Cinza quase preto */
   --color-blue-gray: #4f5461;
-  /* Azul cinza */
-  /* Cores de Feedback */
   --color-error: #f44336;
   /* Vermelho para erro */
   --color-success: #4caf50;
