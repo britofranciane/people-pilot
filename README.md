@@ -1,0 +1,186 @@
+# People Pilot
+
+Este projeto é um sistema de gerenciamento de usuários que permite criar, editar e visualizar informações de usuários. Foi desenvolvido utilizando **React**, **React Query**, **React Router**, **Context API**, **Material UI** e **TypeScript** para criar uma aplicação moderna e eficiente.
+
+---
+
+## **Índice**
+
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Funcionalidades](#funcionalidades)
+- [Pré-requisitos](#pr%C3%A9-requisitos)
+- [Instalação](#instala%C3%A7%C3%A3o)
+- [Rodando o Projeto](#rodando-o-projeto)
+- [Estrutura de Pastas](#estrutura-de-pastas)
+- [Context API](#context-api)
+- [Rotas](#rotas)
+
+---
+
+## **Tecnologias Utilizadas**
+
+- **React** - Biblioteca JavaScript para construir interfaces de usuário.
+- **TypeScript** - Superset do JavaScript que adiciona tipos estáticos.
+- **React Router** - Para o gerenciamento de rotas na aplicação.
+- **React Query** - Para o gerenciamento de estado assíncrono e cache de dados de servidor.
+- **Context API** - Para gerenciamento de estado global.
+- **Material UI** - Biblioteca de componentes estilizados e responsivos.
+- **Axios** - Biblioteca para realizar requisições HTTP.
+- **Vite** - Ferramenta para build e desenvolvimento rápido de aplicações front-end.
+
+---
+
+## **Funcionalidades**
+
+- **Criação de Usuário** - Permite criar um novo usuário preenchendo o formulário de informações.
+- **Edição de Usuário** - Permite editar as informações de um usuário existente.
+- **Visualização de Usuário** - Visualiza informações detalhadas do usuário.
+- **Notificações Toast** - Exibe mensagens de sucesso ou erro ao criar/editar usuários.
+
+---
+
+## **Pré-requisitos**
+
+Antes de começar, certifique-se de ter instalado em sua máquina as seguintes ferramentas:
+
+- Node.js
+- [Git](https://git-scm.com/)
+
+Além disso, é recomendável o uso de um editor de código como o [VSCode](https://code.visualstudio.com/).
+
+---
+
+## **Instalação**
+
+### 1. **Clonar o repositório**
+
+bash
+
+Copiar código
+
+`git clone https://github.com/seu-usuario/seu-repositorio.git`
+
+### 2. **Acessar o diretório do projeto**
+
+bash
+
+Copiar código
+
+`cd nome-do-projeto`
+
+### 3. **Instalar as dependências**
+
+Execute o comando abaixo para instalar todas as dependências do projeto:
+
+bash
+
+Copiar código
+
+`npm install`
+
+---
+
+## **Rodando o Projeto**
+
+### 1. **Ambiente de Desenvolvimento**
+
+Para rodar o projeto em ambiente de desenvolvimento, execute:
+
+bash
+
+Copiar código
+
+`npm run dev`
+
+O projeto será aberto automaticamente no navegador, ou você pode acessá-lo manualmente em [http://localhost:3000](http://localhost:3000).
+
+### 2. **Build para Produção**
+
+Para criar a build do projeto para produção, execute:
+
+bash
+
+Copiar código
+
+`npm run build`
+
+Isso criará uma versão otimizada do projeto na pasta `dist`.
+
+---
+
+## **Estrutura de Pastas**
+
+bash
+
+Copiar código
+
+`src/
+│
+├── components/
+│   ├── Box/
+│   ├── Head/
+│   └── UserForm/
+│
+├── hooks/
+│   └── useToast.ts
+│
+├── services/
+│   ├── api.ts
+│   └── userService.ts
+│
+├── contexts/
+│   └── UserContext.tsx
+│
+├── App.tsx
+├── main.tsx
+└── index.css`
+
+- **components/** - Contém todos os componentes reutilizáveis da aplicação, como `UserForm` e `Head`.
+- **hooks/** - Contém hooks customizados, como o `useToast`.
+- **services/** - Contém serviços de comunicação com a API, como o `userService.ts`.
+- **contexts/** - Contém a implementação da Context API, usada para compartilhar dados entre componentes.
+
+---
+
+## **Context API**
+
+Estamos utilizando o `UserContext` para gerenciar o estado global dos usuários na aplicação.
+
+### Exemplo de Uso:
+
+tsx
+
+Copiar código
+
+`import { useContext } from 'react';
+import { UserContext } from '@contexts/UserContext';
+
+const UserComponent = () => {
+const { users, setUsers } = useContext(UserContext);
+
+// Lógica para manipular usuários
+};`
+
+---
+
+## **Rotas**
+
+Utilizamos o **React Router** para gerenciar as rotas da aplicação.
+
+### Configuração de rotas:
+
+tsx
+
+Copiar código
+
+`import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import User from './pages/User';
+import Home from './pages/Home';
+
+<Router>
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/user/:id" element={<User />} />
+    <Route path="/create-user" element={<User />} />
+  </Routes>
+</Router>;`
