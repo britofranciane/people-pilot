@@ -1,0 +1,16 @@
+.box {
+  min-height: 77vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 2.5rem 1rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
