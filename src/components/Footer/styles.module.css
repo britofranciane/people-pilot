@@ -1,0 +1,52 @@
+.footer {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #1c1c21;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.button {
+  background-color: transparent;
+  color: #a2a2a8;
+  border: none;
+  border-radius: 0.25rem;
+  margin: 0 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  opacity: 0.6;
+}
+
+.copyContainer {
+  font-size: 0.875rem;
+  color: #a2a2a8;
+}
+
+@media (max-width: 768px) {
+  .button {
+    padding: 0;
+  }
+}
