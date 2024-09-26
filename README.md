@@ -158,7 +158,6 @@ import { UserContext } from '@contexts/UserContext';
 const UserComponent = () => {
 const { users, setUsers } = useContext(UserContext);
 
-// Lógica para manipular usuários
 };`
 
 ---
