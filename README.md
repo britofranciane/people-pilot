@@ -1,6 +1,9 @@
 # People Pilot
 
 Este projeto é um sistema de gerenciamento de usuários que permite criar, editar e visualizar informações de usuários. Foi desenvolvido utilizando **React**, **React Query**, **React Router**, **Context API**, **Material UI** e **TypeScript** para criar uma aplicação moderna e eficiente.
+![image](https://github.com/user-attachments/assets/e6b68823-53d5-4fad-9d57-12fc724009ed)
+![image](https://github.com/user-attachments/assets/bb6f41be-f9f7-4c13-86fc-74931d8117a0)
+
 
 ---
 
