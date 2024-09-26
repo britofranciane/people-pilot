@@ -1,0 +1,51 @@
+.appBar {
+  background: transparent;
+  border-bottom: 1px solid #d6d6de;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #fafafa;
+  display: flex;
+  align-items: center;
+  svg {
+    font-size: 1.5rem;
+    margin-right: 0.25rem;
+  }
+}
+
+.menuButton {
+  color: #fff;
+}
+
+.menuItem {
+  text-align: center;
+}
+
+.menu {
+  width: 100%;
+  max-width: 400px;
+  ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    li {
+      cursor: pointer;
+    }
+  }
+}
