@@ -1,6 +1,6 @@
 import { QueryClient } from '@tanstack/react-query';
 import { api } from './api';
-import { UserType } from '../types/userType';
+import { UserType } from 'types/userType';
 
 const queryClient = new QueryClient();
 
