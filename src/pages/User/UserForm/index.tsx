@@ -6,7 +6,6 @@ import { validationSchema } from './validationSchema';
 import { CustomButton } from '@components/index';
 import { TextField } from '@mui/material';
 import styles from './styles.module.css';
-import { UserType } from 'types/userType';
 
 type UserFormInputs = z.infer<typeof validationSchema>;
 
@@ -16,7 +15,7 @@ interface FormField {
 }
 
 interface Props {
-  onSubmit: (data: UserFormInputs | UserType) => void;
+  onSubmit: (data: any) => void;
   defaultValues?: UserFormInputs;
   isEdit?: boolean;
 }

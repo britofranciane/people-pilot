@@ -11,7 +11,7 @@ import { GridColDef } from '@mui/x-data-grid';
 import { UserType } from 'types/userType';
 
 interface Props {
-  users: UserType[];
+  users: any;
   isLoading: boolean;
   handleDeleteClick: (id: string) => void;
 }
