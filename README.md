@@ -2,10 +2,19 @@
 
 Este projeto é um sistema de gerenciamento de usuários que permite criar, editar e visualizar informações de usuários. Foi desenvolvido utilizando **React**, **React Query**, **React Router**, **Context API**, **Material UI** e **TypeScript** para criar uma aplicação moderna e eficiente.
 ## Página Home 
-![image](https://github.com/user-attachments/assets/e6b68823-53d5-4fad-9d57-12fc724009ed)
+1. Sem dados
+![image](https://github.com/user-attachments/assets/f3801d53-859e-4baa-907a-4bed891868fb)
+
+2. Com dados
+![image](https://github.com/user-attachments/assets/7eaad1c4-0da5-4373-a466-8fdd7b07afa9)
+
 
 ## Página User
-![image](https://github.com/user-attachments/assets/bb6f41be-f9f7-4c13-86fc-74931d8117a0)
+1. Cadastro de Usuário
+   ![image](https://github.com/user-attachments/assets/385d5958-2153-4e2a-b8bc-e88f77713f42)
+
+2. Editar Usuário
+   ![image](https://github.com/user-attachments/assets/8cefc8bb-6297-4f9b-b80a-45d2fa21256c)
 
 ---
 
@@ -59,27 +68,15 @@ Além disso, é recomendável o uso de um editor de código como o [VSCode](http
 
 ### 1. **Clonar o repositório**
 
-bash
-
-Copiar código
-
 `git clone https://github.com/seu-usuario/seu-repositorio.git`
 
 ### 2. **Acessar o diretório do projeto**
-
-bash
-
-Copiar código
 
 `cd nome-do-projeto`
 
 ### 3. **Instalar as dependências**
 
 Execute o comando abaixo para instalar todas as dependências do projeto:
-
-bash
-
-Copiar código
 
 `npm install`
 
@@ -91,9 +88,7 @@ Copiar código
 
 Para rodar o projeto em ambiente de desenvolvimento, execute:
 
-bash
 
-Copiar código
 
 `npm run dev`
 
@@ -103,10 +98,6 @@ O projeto será aberto automaticamente no navegador, ou você pode acessá-lo ma
 
 Para criar a build do projeto para produção, execute:
 
-bash
-
-Copiar código
-
 `npm run build`
 
 Isso criará uma versão otimizada do projeto na pasta `dist`.
@@ -114,10 +105,6 @@ Isso criará uma versão otimizada do projeto na pasta `dist`.
 ---
 
 ## **Estrutura de Pastas**
-
-bash
-
-Copiar código
 
 `src/
 │
@@ -153,10 +140,6 @@ Estamos utilizando o `UserContext` para gerenciar o estado global dos usuários 
 
 ### Exemplo de Uso:
 
-tsx
-
-Copiar código
-
 `import { useContext } from 'react';
 import { UserContext } from '@contexts/UserContext';
 
@@ -172,10 +155,6 @@ const { users, setUsers } = useContext(UserContext);
 Utilizamos o **React Router** para gerenciar as rotas da aplicação.
 
 ### Configuração de rotas:
-
-tsx
-
-Copiar código
 
 `import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import User from './pages/User';
