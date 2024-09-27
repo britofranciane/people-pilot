@@ -10,7 +10,11 @@ Este projeto é um sistema de gerenciamento de usuários que permite criar, edit
 
 
 ## Página User
-![image](https://github.com/user-attachments/assets/bb6f41be-f9f7-4c13-86fc-74931d8117a0)
+1. Cadastro de Usuário
+   ![image](https://github.com/user-attachments/assets/385d5958-2153-4e2a-b8bc-e88f77713f42)
+
+2. Editar Usuário
+   ![image](https://github.com/user-attachments/assets/8cefc8bb-6297-4f9b-b80a-45d2fa21256c)
 
 ---
 
