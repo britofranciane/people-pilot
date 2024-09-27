@@ -68,27 +68,15 @@ Além disso, é recomendável o uso de um editor de código como o [VSCode](http
 
 ### 1. **Clonar o repositório**
 
-bash
-
-Copiar código
-
 `git clone https://github.com/seu-usuario/seu-repositorio.git`
 
 ### 2. **Acessar o diretório do projeto**
-
-bash
-
-Copiar código
 
 `cd nome-do-projeto`
 
 ### 3. **Instalar as dependências**
 
 Execute o comando abaixo para instalar todas as dependências do projeto:
-
-bash
-
-Copiar código
 
 `npm install`
 
@@ -100,9 +88,7 @@ Copiar código
 
 Para rodar o projeto em ambiente de desenvolvimento, execute:
 
-bash
 
-Copiar código
 
 `npm run dev`
 
@@ -112,10 +98,6 @@ O projeto será aberto automaticamente no navegador, ou você pode acessá-lo ma
 
 Para criar a build do projeto para produção, execute:
 
-bash
-
-Copiar código
-
 `npm run build`
 
 Isso criará uma versão otimizada do projeto na pasta `dist`.
@@ -123,10 +105,6 @@ Isso criará uma versão otimizada do projeto na pasta `dist`.
 ---
 
 ## **Estrutura de Pastas**
-
-bash
-
-Copiar código
 
 `src/
 │
@@ -162,10 +140,6 @@ Estamos utilizando o `UserContext` para gerenciar o estado global dos usuários 
 
 ### Exemplo de Uso:
 
-tsx
-
-Copiar código
-
 `import { useContext } from 'react';
 import { UserContext } from '@contexts/UserContext';
 
@@ -181,10 +155,6 @@ const { users, setUsers } = useContext(UserContext);
 Utilizamos o **React Router** para gerenciar as rotas da aplicação.
 
 ### Configuração de rotas:
-
-tsx
-
-Copiar código
 
 `import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import User from './pages/User';
