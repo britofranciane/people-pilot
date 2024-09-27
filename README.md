@@ -149,7 +149,6 @@ const UserComponent = () => {
 const { users, setUsers } = useContext(UserContext);
 
 };`
-
 ---
 
 ## **Rotas**
