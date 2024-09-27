@@ -3,7 +3,7 @@
 Este projeto é um sistema de gerenciamento de usuários que permite criar, editar e visualizar informações de usuários. Foi desenvolvido utilizando **React**, **React Query**, **React Router**, **Context API**, **Material UI** e **TypeScript** para criar uma aplicação moderna e eficiente.
 ## Página Home 
 1. Sem dados
-![image](https://github.com/user-attachments/assets/d2043aac-401b-4631-a806-560a97ba4daf)
+![image](https://github.com/user-attachments/assets/f3801d53-859e-4baa-907a-4bed891868fb)
 
 2. Com dados
 ![image](https://github.com/user-attachments/assets/e6b68823-53d5-4fad-9d57-12fc724009ed)
