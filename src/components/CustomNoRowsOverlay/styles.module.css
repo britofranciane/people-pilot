@@ -1,0 +1,67 @@
+.overlayContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  color: var(--color-gray-light);
+}
+
+.iconContainer {
+  margin-bottom: 1.25rem;
+}
+
+.pulsatingIcon {
+  color: var(--color-info);
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.message h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-gray-light);
+  opacity: 0.8;
+}
+
+.message p {
+  font-size: 1rem;
+  color: var(--color-gray-light);
+  opacity: 0.6;
+}
+
+.animationContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+
+.loader {
+  width: 40px;
+  height: 40px;
+  border: 0.25rem solid var(--color-gray-dark);
+  border-left-color: var(--color-info);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
