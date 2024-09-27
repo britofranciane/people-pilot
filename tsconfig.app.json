@@ -24,7 +24,8 @@
       "@components/*": ["components/*"],
       "@hooks/*": ["hooks/*"],
       "@utils/*": ["utils/*"],
-      "@services/*": ["services/*"]
+      "@services/*": ["services/*"],
+      "types/*": ["types/*"]
     }
   },
   "include": ["src"]
