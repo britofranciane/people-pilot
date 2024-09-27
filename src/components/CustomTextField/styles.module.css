@@ -1,0 +1,12 @@
+.inputRoot {
+  border: 1px solid var(--color-blue-gray);
+  border-radius: 0.75rem;
+}
+
+.input {
+  color: var(--color-gray-light);
+}
+
+.fieldset {
+  border: none;
+}
